@@ -1,0 +1,26 @@
+{
+  "name": "assign-partial",
+  "version": "1.0.0",
+  "description": "partial application for functions that take their arguments as options",
+  "author": "1stdibs.com, Inc.",
+  "scripts": {
+    "test": "mocha",
+    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "lint": "dibslint --root=."
+  },
+  "main": "index.js",
+  "pre-commit": {
+    "run": [
+      "gitlint"
+    ]
+  },
+  "devDependencies": {
+    "dibslint": "^1.2.4",
+    "mocha": "^2.3.4",
+    "pre-commit": "^1.1.2"
+  },
+  "dependencies": {
+    "lodash.assign": "^4.0.3",
+    "sinon": "^1.17.3"
+  }
+}
