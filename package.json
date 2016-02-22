@@ -1,6 +1,6 @@
 {
   "name": "assign-partial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "partial application for functions that take their arguments as options",
   "author": "1stdibs.com, Inc.",
   "scripts": {
