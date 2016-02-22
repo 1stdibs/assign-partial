@@ -17,10 +17,10 @@
   "devDependencies": {
     "dibslint": "^1.2.4",
     "mocha": "^2.3.4",
-    "pre-commit": "^1.1.2"
+    "pre-commit": "^1.1.2",
+    "sinon": "^1.17.3"
   },
   "dependencies": {
-    "lodash.assign": "^4.0.3",
-    "sinon": "^1.17.3"
+    "lodash.assign": "^4.0.3"
   }
 }
