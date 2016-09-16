@@ -8,6 +8,11 @@
     "gitlint": "node_modules/.bin/dibslint --git --warnings",
     "lint": "dibslint --root=."
   },
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/1stdibs/assign-partial"
+  },
+  "license": "MIT",
   "main": "index.js",
   "pre-commit": {
     "run": [
